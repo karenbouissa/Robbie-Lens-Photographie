@@ -41,6 +41,7 @@ footer {
 }
 
 .cta {
+  display: inline-block;
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
@@ -56,29 +57,26 @@ a:hover {
   text-decoration: none;
 }
 
+.lien-icone {
+  margin-left: 30px;
+}
+
 .lien-icone:hover {
   opacity: 0.5;
-}
-
-.carre-contenu {
-  border-right: 1px solid #8e86b5;
-  border-bottom: 1px solid #8e86b5;
-  padding: 50px;
-}
-
-.carre-contenu h2 {
-  margin-top: 30px;
-}
-
-.carre-contenu ul {
-  margin-top: 30px;
 }
 
 section {
   padding: 80px;
 }
 
-.a-propos-main {
-  width: 50%;
-  margin: auto;
+footer,
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
 }
